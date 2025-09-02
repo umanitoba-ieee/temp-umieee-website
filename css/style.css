@@ -81,7 +81,7 @@ section {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: linear-gradient(to top, #BAC6D9, rgba(255,255,255,0.2)), url("/assets/ieeextreme.jpg");
+  background: linear-gradient(to top, #BAC6D9, rgba(255,255,255,0.2)), url("assets/ieeextreme.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -95,13 +95,13 @@ section {
 }
 
 #mission {
-  background: linear-gradient(to top, #00629BFF, #00629BA0), url("/assets/workshop.png");
+  background: linear-gradient(to top, #00629BFF, #00629BA0), url("assets/workshop.png");
   background-size: cover;
   background-position: center;
 }
 
 #advantages {
-  background: linear-gradient(to top, #BAC6D9, #BAC6D9E0), url("/assets/edcel.png");
+  background: linear-gradient(to top, #BAC6D9, #BAC6D9E0), url("assets/edcel.png");
   background-size: cover;
   background-position: center;
 }

@@ -1,0 +1,203 @@
+body {
+    margin: 0;
+    /* font-family: Arial, sans-serif; */
+    font-family: Verdana, Helvetica, sans-serif;
+    color: #333;
+}
+
+header {
+    background-color: white;
+    padding: 10px 20px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.banner img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #00629B;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+section {
+    padding: 60px 10%;
+}
+
+.section-content {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.section-text {
+    flex: 1;
+    text-align: left;
+}
+
+.section-image {
+    flex: 1;
+    text-align: center;
+}
+
+.section-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* section:nth-of-type(odd) .section-content {
+    flex-direction: row-reverse;
+} */
+
+
+#intro {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(to top, #BAC6D9, rgba(255,255,255,0.2)), url("/assets/ieeextreme.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#intro h1 {
+  font-size: xx-large;
+  margin: 10px 0;
+}
+#intro #logo {
+  height: 30vh;
+  max-width: 90%;
+}
+
+#mission {
+  background: linear-gradient(to top, #00629BFF, #00629BA0), url("/assets/workshop.png");
+  background-size: cover;
+  background-position: center;
+}
+
+#advantages {
+  background: linear-gradient(to top, #BAC6D9, #BAC6D9E0), url("/assets/edcel.png");
+  background-size: cover;
+  background-position: center;
+}
+
+#advantages ul {
+    text-align: left;
+}
+
+#join {
+    text-align: center;
+}
+
+#join button {
+    background-color: #477CA7;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#join button:hover {
+    background-color: #00629B;
+}
+
+#executives h2 {
+    text-align: center;
+    width: 100%;
+}
+
+.executives-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.executive-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    flex-grow: 1;
+}
+
+.executive-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.executive-card .role {
+    font-weight: bold;
+    color: #00629B;
+    margin: 5px 0;
+}
+
+.executive-card .name {
+    margin: 5px 0;
+    font-size: 1.1em;
+}
+
+
+#sponsors img {
+  padding: 10px;
+}
+
+.section-blue-1 {
+    background-color: #BAC6D9;
+}
+
+.section-blue-2 {
+    background-color: #809DBD;
+}
+
+.section-blue-3 {
+    background-color: #477CA7;
+}
+
+.section-blue-4 {
+    background-color: #00629B;
+    color: white;
+}
+
+
+footer {
+    background-color: white;
+    text-align: center;
+    padding: 50px;
+    box-shadow: 0 -5px 5px rgba(0, 0, 0, 0.1);
+    color: #808080;
+}

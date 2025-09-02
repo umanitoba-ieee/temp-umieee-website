@@ -12,6 +12,7 @@ header {
     position: sticky;
     top: 0;
     z-index: 100;
+    overflow: hidden;
 }
 
 .banner {
@@ -45,6 +46,7 @@ nav a {
 
 section {
     padding: 60px 10%;
+    overflow: hidden;
 }
 
 .section-content {
@@ -101,7 +103,7 @@ section {
 }
 
 #advantages {
-  background: linear-gradient(to top, #BAC6D9, #BAC6D9E0), url("assets/edcel.png");
+  background: linear-gradient(to top, #BAC6D9, #BAC6D9E0), url("assets/edcel-soldering.png");
   background-size: cover;
   background-position: center;
 }
@@ -171,6 +173,10 @@ section {
     font-size: 1.1em;
 }
 
+
+#sponsors {
+    
+}
 
 #sponsors img {
   padding: 10px;

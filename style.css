@@ -117,8 +117,9 @@ section {
     text-align: center;
 }
 
-#join a {
-    padding: 10px;
+#join ol a {
+    /* padding: 10px; */
+    color: greenyellow;
 }
 
 #join button {
